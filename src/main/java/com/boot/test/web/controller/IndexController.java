@@ -15,6 +15,7 @@ public class IndexController {
     public String welcome(Model model) {
         model.addAttribute("name", "Arif");
         return "home";
+
     }
 
     @RequestMapping("/home")
